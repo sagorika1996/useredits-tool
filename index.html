@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<title>Search User Edits</title>
+ 		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<link rel = "stylesheet" type = "text/css" href = "index.css" />
+  		<script src="index.js"></script>
+	</head>
+
+	<body>
+		<div class="jumbotron text-center">
+  			<h1>Wikipedia Edits</h1> 
+  			<p>Enter a username and get the recent english wikipedia edits of that user</p> 
+  			<form class="form-inline" id="myForm">
+    			<div class="input-group">
+     	    		<input id="searchTerm" type="text" class="form-control" size="50" placeholder="Username" required>
+     		    	<div class="input-group-btn">
+        				<button class="btn btn-default" type="submit" > 
+        					<i class="glyphicon glyphicon-search"></i>
+      					</button>
+    				</div>
+    			</div>
+  			</form>
+		</div>
+		<div id="output"></div>
+	</body>
+</html>
