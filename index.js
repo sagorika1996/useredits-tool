@@ -12,6 +12,7 @@ $(document).ready(function() {
 			contentType: "application/json; charset=utf-8",
 			async: false,
        		dataType: "json",
+            headers: { 'Api-User-Agent': 'useredits-tool/1.0' },
      		success: function(data, status, jqXHR) {
      			$("#output").html();
        			arr = data.query.usercontribs;
